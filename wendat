@@ -2,14 +2,6 @@ import random
 import socket
 import threading
 import os
-
-pasw = "WENDAT"
-
-for i in range(3):
-  pwd input("=====> PASSWORD : ")
-  j = 3
-if (pwd == pasw):
-        time.sleep(2)
         print("=====> [0%] Loading.......")
         time.sleep(1)
         print("=====> [10%] Loading......")
@@ -34,16 +26,7 @@ if (pwd == pasw):
         time.sleep(1)
         print("=====> [94%] Loading......")
         time.sleep(1)
-        print("=====> [100%] Processing\n")
-        time.sleep(2)
-        break
-    else:
-        time.sleep(2)
-        print("=====> WRONG PASSWORD\n")
-        continue
-time.sleep(2)
-print("=====> SUCCESFULL LOGINS")
-time.sleep(2)
+        print("=====> [100%] Success\n")
 
 os.system("clear")
 print("=====> Author : Diesel's")
